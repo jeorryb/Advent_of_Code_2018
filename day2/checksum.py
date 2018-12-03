@@ -18,6 +18,7 @@ def calcchecksum(inputfile):
         return checksum
 
 
+
 checksum = calcchecksum('input.txt')
 
 print(f'The checksum is {checksum}')
